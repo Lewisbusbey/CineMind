@@ -1,0 +1,65 @@
+@font-face {
+    font-family: Dik;
+    src: url(../fonts/BadeenDisplay-Regular.ttf);
+}
+@font-face {
+font-family: Tekst;
+src: url(../fonts/static/DMSans-ExtraLight.ttf);
+}
+@font-face {
+    font-family: Tekst Dik;
+    src: url(../fonts/static/DMSans-Medium.ttf);
+}
+
+body {
+    background-color: rgb(252, 239, 220);
+    font-family: Tekst;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+h1 {
+    font-family: Dik;
+    color: rgb(174, 14, 14);
+font-size: 4em;
+}
+
+a {
+    color: rgb(0, 0, 0);
+    font-family: Tekst Dik;
+    font-weight: 500;
+    text-decoration: none;
+    transition: color 200ms ease;
+}
+h2,h4 {
+    font-family: Tekst Dik;
+    font-weight: 500;
+    color: rgb(174, 14, 14);
+}
+header section{
+    display: flex;
+    justify-content: space-between;
+}
+header p {
+    display: flex;
+    justify-content: center
+}
+
+header ul {
+    display: flex;
+justify-content: space-around;
+}
+header section a {
+    align-content: center;
+}
+header section img {
+    align-content: center;
+}
+a:hover {
+color: rgb(174, 14, 14);
+}
+footer {
+    align-content: end;
+}
